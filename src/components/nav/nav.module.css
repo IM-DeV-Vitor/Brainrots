@@ -9,14 +9,17 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 7em;
     padding: 1em;
     box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.19);
+    width: 80vw;
 }
 
 .navButtons {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
 }
 

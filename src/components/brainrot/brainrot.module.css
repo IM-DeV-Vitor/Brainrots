@@ -6,7 +6,7 @@
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    width: 500px;
+    width: 70vw;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.11);
     margin-top: 5em;
     border-radius: 15px;
@@ -33,7 +33,7 @@ input {
     border-radius: 10px;
     padding: 15px;
     border: 0.2px solid rgb(28, 217, 255);
-    width: 288px;
+    width: 50vw;
 }
 
 #enviar {
@@ -45,4 +45,21 @@ input {
     cursor: pointer;
     font-size: 1.2em;
     font-weight: bolder;
+}
+
+@media screen and (min-width: 720px) {
+    input {
+        width: 20vw;
+    }
+
+
+    .brainrotContainer {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    input {
+        width: 45vw;
+    }
 }

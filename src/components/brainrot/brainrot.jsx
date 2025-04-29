@@ -37,7 +37,7 @@ export default function Brainrot() {
         <div className={styles.brainrotContainer}>
             <h1>Score: {score}</h1>
             <div className={styles.brainrotImage}>
-                {imagem && <img src={imagem} alt="" id="imagem"/>}
+            { typeof imagem === "string" && imagem.length > 0 && ( <img src={imagem} alt="Brainrot" /> ) }
             </div>
             <div className={styles.brainrotPromptSend} id="prompts">
                 <input type="text" name="name" id="name" placeholder="Brainrot name" value={inputValue} onChange={(e) => {
