@@ -1,0 +1,42 @@
+[
+    {
+        "img" : "/brainrots/public/assets/ballerina-cappuccina.png",
+        "name" : "BALLERINA CAPPUCCINA"
+    },
+    {
+        "img" : "/brainrots/public/assets/BallerinoLololo.png",
+        "name" : "BALLERINO LOLOLO"
+    },
+    {
+        "img" :"/brainrots/public/assets/Bearorito_Applepitolirotito.png",
+        "name" : "BEARORITO APPLEPITOLIROTITO"
+    }, 
+    {
+        "img" : "/brainrots/public/assets/bicicletta-del-gatto-santo.png",
+        "name" : "BICICLETTA DEL GATTO SANTO"
+    }, 
+    {
+        "img" : "/brainrots/public/assets/Bombardiere-lucertola.png",
+        "name" : "BOMBARDIERE LUCERTOLA"
+    },
+    {   
+        "img" : "/brainrots/public/assets/Camelrino-Tazzino.png",
+        "name" : "CAMELRINO TAZZINO"
+    }, 
+    {
+        "img" : "/brainrots/public/assets/crocodilo-potatino.png",
+        "name" : "CROCODILO POTATINO"
+    },
+    {
+        "img" : "/brainrots/public/assets/Chef-crabracadabra.png",
+        "name" : "CHEF CRABRACADABRA"
+    }, 
+    {
+        "img" : "/brainrots/public/assets/Chimpanzini-Bananini.png",
+        "name" : "CHIMPANZINI BANANINI"
+    },
+    {
+        "img" : "/brainrots/public/assets/Cocosatic_Bungus.png",
+        "name" : "COCOSATIC BUNGUS"
+    }
+]
