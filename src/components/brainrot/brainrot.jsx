@@ -5,17 +5,17 @@ export default function Brainrot() {
 
     const [score, setScore] = useState(0)
     const [dados, setDados] = useState(null)
-    const [imagem, setImagem] = useState(null)
+    const [imagem, setImagem] = useState("")
     const [inputValue, setInputValue] = useState("")
 
     useEffect(() => {
-        fetch("/data/brainrot.json")
+        fetch("/brainrots/public/data/brainrot.json")
         .then((res) => res.json()) 
         .then((data) => {
             setDados(data); 
             setImagem(data[0].img)}) 
         .catch((err) => console.error("Erro ao carregar JSON:", err));
-    }, [])
+    }, []) 
 
     function brainrotCalc() {
         const brainrotResponse = inputValue.toUpperCase()
@@ -29,7 +29,7 @@ export default function Brainrot() {
                 }
             }
         }
-                    setInputValue("")
+                setInputValue("")
     } 
     
 
@@ -42,6 +42,8 @@ export default function Brainrot() {
             <div className={styles.brainrotPromptSend} id="prompts">
                 <input type="text" name="name" id="name" placeholder="Brainrot name" value={inputValue} onChange={(e) => {
                     setInputValue(e.target.value)
+                }} onKeyDown={(e) => {
+                    if (e.key === "Enter") brainrotCalc()
                 }}/>
                 <input type="button" value="Enviar" id={styles.enviar} onClick={brainrotCalc}/>
             </div>

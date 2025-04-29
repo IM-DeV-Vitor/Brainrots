@@ -25,13 +25,13 @@
 
 h1 {
     font-family: "Tagesschrift", "Poppins", sans-serif;
-    display: block;
-    margin: auto;
     font-size: 2.5em;
+    padding: 0px 50px;
 }
 
 button {
     padding: 13px 40px;
+    cursor: pointer;
 }
 
 button#cadastro {
