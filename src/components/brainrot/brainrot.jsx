@@ -9,7 +9,7 @@ export default function Brainrot() {
     const [inputValue, setInputValue] = useState("")
 
     useEffect(() => {
-        fetch("/brainrots/public/data/brainrot.json")
+        fetch("/Brainrots/public/data/brainrot.json")
         .then((res) => res.json()) 
         .then((data) => {
             setDados(data); 
